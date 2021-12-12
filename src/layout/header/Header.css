@@ -1,0 +1,47 @@
+.bgHeader {
+    background-image: url("../../assets/bg.webp");
+    background-color: rgb(30, 30, 30);
+    background-blend-mode: soft-light;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.contentHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 35px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.textName {
+    color: orange;
+    font-size: 50px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.personalImg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.textHeader {
+    margin: 24px;
+}
+
+@media screen and (max-width: 500px) {
+    .contentHeader{
+        flex-direction: column;
+    }
+}
