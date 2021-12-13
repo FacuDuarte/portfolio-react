@@ -1,0 +1,43 @@
+.sectionProyects {
+    height: 90vh;
+    margin-top: 24px;
+}
+
+.titleProyects {
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    margin: 12px 0;
+}
+
+.cardsProyects {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    filter: grayscale(100%);
+}
+
+.imgLogo {
+    height: 100px;
+    margin-top: 24px;
+}
+
+.card:hover {
+    filter: grayscale(0%);
+    transition: all 0.5s;
+}
+
+
+@media screen and (max-width: 500px) {
+    .cardsProyects{
+        grid-template-columns: 1fr;
+    }
+}
