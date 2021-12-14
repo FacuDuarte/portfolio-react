@@ -13,6 +13,7 @@ import jquery from '../../assets/jquery.gif'
 import reactjs from '../../assets/reactjs.png'
 import sass from '../../assets/sass.png'
 import material from '../../assets/material-ui.png'
+import pdf from "../../assets/Cv-DuarteFacundo.pdf"
 
 
 const AboutMe = () => {
@@ -25,7 +26,7 @@ const AboutMe = () => {
                     Me llamo Facundo Duarte, tengo 22 años y soy de Buenos Aires, Argentina. Me gustan los diseños modernos y simples, me apasiona el desarollo web y trato de aprender todo lo que pueda sobre este mundo. 
                     Tuve mi primera experiencia trabajando en un proyecto para un emprendimiento gracias a que finalize como top 10 de la clase en el curso de HTML y CSS en CoderHouse, donde estudie, y actualmente estoy buscando mi primer trabajo en el mundo IT.
                     </p>
-                    <Button variant="contained" href="#contained-buttons" color="warning" startIcon={<SaveIcon/>}>
+                    <Button variant="contained" href="#contained-buttons" color="warning" startIcon={<SaveIcon/>} href={pdf} download="Cv-FacundoDuarte">
                         Descargar Cv
                     </Button>
                 </div>
