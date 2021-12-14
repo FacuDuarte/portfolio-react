@@ -1,0 +1,37 @@
+.sectionContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    min-height: 65vh;
+}
+
+
+.contactLinks{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contactCard {
+    text-align: center;
+}
+
+.imgContact {
+    height: 70px;
+}
+
+.linksText {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+    .contactLinks{
+        flex-direction: column;
+    }
+    .titleContact {
+        margin-top: 24px 0px;
+    }
+}

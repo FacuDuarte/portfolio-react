@@ -1,3 +1,16 @@
 .colorBrackets {
     color: orange;
 }
+
+.textNav {  
+    color: white;
+}
+
+.textNav:hover {
+    color: orange;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+}

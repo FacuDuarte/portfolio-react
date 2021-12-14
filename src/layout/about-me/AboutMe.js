@@ -17,7 +17,7 @@ import material from '../../assets/material-ui.png'
 
 const AboutMe = () => {
     return (
-        <section className='sectionSkills'>
+        <section className='sectionSkills' id='Yo'>
             <div className='contentSkills'>
                 <div className='descriptionSkills marginTop'>
                     <h2>Sobre mí</h2>

@@ -4,7 +4,7 @@ import fotoCV from '../../assets/fotoPersonal.png'
 
 const Header = () => {
     return (
-        <div className='bgHeader'>
+        <div className='bgHeader' id='header'>
             <div className='contentHeader'>
                 <img src={fotoCV} alt='foto sobre mí' className='personalImg'/>
                 <div className='textHeader'>

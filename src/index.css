@@ -1,6 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
+}
+
+ul li a {
+  color: black !important;
+}
+
+ul li a:hover {
+  color: orange !important;
 }
