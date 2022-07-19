@@ -1,15 +1,17 @@
+import "./NavBar.css"
+
 import * as React from "react";
+
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
+import Button from "@mui/material/Button";
+import Container from "@mui/material/Container";
 import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
-import Container from "@mui/material/Container";
-import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import "./NavBar.css"
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
 
 const pages = ["Yo", "Proyectos", "Contacto"];
 
@@ -36,7 +38,7 @@ const NavBar = () => {
             href="#"
           >
             <span className="colorBrackets">{`<`}</span>
-              <a href="#" className="logo">FD</a>
+              <a href="/#" className="logo">FD</a>
             <span className="colorBrackets">{`/>`}</span>
           </Typography>
 
@@ -71,7 +73,7 @@ const NavBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu} >
-                  <Button className="textNav" textAlign="center" href={`#${page}`}>{page}</Button>
+                  <Button className="textNav"  href={`/#${page}`}>{page}</Button>
                 </MenuItem>
               ))}
             </Menu>
@@ -83,7 +85,7 @@ const NavBar = () => {
             sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
           >
             <span className="colorBrackets">{`<`}</span>
-              <a href="#" className="logo">FD</a>
+              <a href="/#" className="logo">FD</a>
             <span className="colorBrackets">{`/>`}</span>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
@@ -93,7 +95,7 @@ const NavBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
                 className="textNav"
-                href={`#${page}`}
+                href={`/#${page}`}
               >
                 {page}
               </Button>

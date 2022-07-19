@@ -1,6 +1,7 @@
-import React from 'react'
 import "./Header.css"
-import fotoCV from '../../assets/fotoPersonal.png'
+
+import React from 'react'
+import fotoCV from '../../assets/fotoPersonal.jpg'
 
 const Header = () => {
     return (
@@ -8,9 +9,8 @@ const Header = () => {
             <div className='contentHeader'>
                 <img src={fotoCV} alt='foto sobre mí' className='personalImg'/>
                 <div className='textHeader'>
-                    <p className='text'>Hi!</p>
-                    <p className='textName'>Soy Facundo Duarte</p>
-                    <p className='text'>Front End Developer</p>
+                    <p className='textName'>Facundo Duarte</p>
+                    <p className='text'>Fullstack Developer</p>
                 </div>
             </div>
         </div>

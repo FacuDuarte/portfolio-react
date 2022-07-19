@@ -32,4 +32,7 @@
     .contentSkills{
         flex-direction: column;
     }
+    .descriptionSkills{
+        width: 80%;
+    }
 }

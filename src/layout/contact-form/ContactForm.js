@@ -8,7 +8,7 @@ const ContactForm = () => {
     return (
         <section className='sectionContact' id='Contacto'>
             <div className='titleContact'>
-                <h2>Contacto</h2>
+                <h2>Redes y contacto</h2>
             </div>
             <div className='contactLinks'>
                 <div className='contactCard'>
