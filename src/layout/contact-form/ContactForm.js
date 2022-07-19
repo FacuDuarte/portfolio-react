@@ -1,12 +1,13 @@
-import React from 'react'
 import "./ContactForm.css"
-import gmail from '../../assets/gmail.png'
+
+import React from 'react'
 import github from '../../assets/github.png'
+import gmail from '../../assets/gmail.png'
 import linkedin from '../../assets/linkedin.png'
 
 const ContactForm = () => {
     return (
-        <section className='sectionContact' id='Contacto'>
+        <section className='sectionContact' id='Contacto' data-aos="flip-left" data-aos-duration="1500">
             <div className='titleContact'>
                 <h2>Redes y contacto</h2>
             </div>

@@ -20,7 +20,7 @@ import sass from '../../assets/sass.png'
 const AboutMe = () => {
     return (
         <section className='sectionSkills' id='Yo'>
-            <div className='contentSkills'>
+            <div className='contentSkills' data-aos="fade-up" data-aos-duration="1500">
                 <div className='descriptionSkills marginTop'>
                     <h2>Sobre mí</h2>
                     <p>
